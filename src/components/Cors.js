@@ -8,3 +8,4 @@ builder.Services.AddCors(options =>
                    .AllowAnyHeader();
         });
     });
+app.UseCors("AllowAll");
