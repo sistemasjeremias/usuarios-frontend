@@ -1,0 +1,60 @@
+Usuarios Frontend
+
+Este proyecto es una interfaz frontend construida con React y Bootstrap, diseñada para consumir una API REST creada con .NET en Visual Studio 2022. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una entidad Usuario.
+
+✨ Características principales
+
+Listar todos los usuarios
+
+Buscar usuario por ID
+
+Crear nuevo usuario
+
+Editar usuario existente
+
+Eliminar usuario
+
+📂 Clonar el proyecto
+
+git clone https://github.com/tu_usuario/usuarios-frontend.git
+cd usuarios-frontend
+
+Reemplaza tu_usuario por tu nombre de usuario real en GitHub.
+
+🚜 Instalar dependencias
+
+npm install
+
+Esto instalará todas las librerías necesarias como React, Axios, Bootstrap, etc.
+
+🚀 Iniciar la aplicación
+
+npm start
+
+Esto iniciará la app en modo desarrollo en http://localhost:3000.
+
+📁 Requisitos
+
+Tener Node.js y npm instalados
+
+Tener acceso a la API corriendo en local: https://localhost:7139
+
+⚠️ Notas
+
+Si aparece un error de certificado con la API en .NET, aceptalo desde el navegador.
+
+El proyecto usa Bootstrap para estilos.
+
+🌐 Tecnologías utilizadas
+
+React
+
+Axios
+
+Bootstrap
+
+.NET 6+ (para la API)
+
+❤️ Autor
+
+Desarrollado por Aaron Abraham.
