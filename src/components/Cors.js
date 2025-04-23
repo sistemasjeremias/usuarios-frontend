@@ -9,3 +9,5 @@ builder.Services.AddCors(options =>
         });
     });
 app.UseCors("AllowAll");
+// Relación: un cliente puede tener muchas ventas
+    public ICollection<Venta> Ventas { get; set; }
